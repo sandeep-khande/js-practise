@@ -6,4 +6,13 @@ const obj2 = {3: "a", 4: "b"}
 // const obj3 = Object.assign({}, obj1, obj2)
 
 const obj3 = {...obj1,...obj2}
-console.log(obj3);
+// console.log(obj3);
+
+const course = {
+    coursename: "js",
+    price: "99",
+    courseInstructor: "hitesh"
+}
+
+const {courseInstructor} = course
+console.log(courseInstructor);
