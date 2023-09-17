@@ -22,6 +22,4 @@ function addTwoNumbers (number1, number2){
 const result = addTwoNumbers(4, 5)
 console.log(result);
 
-function loginUserMessage(username){
 
-}
